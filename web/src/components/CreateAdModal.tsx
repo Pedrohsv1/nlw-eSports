@@ -165,10 +165,8 @@ export function CreateAdModal() {
                   </label>
 
                   <footer className='mt-4 flex justify-end gap-4'>
-                    <Dialog.Close>
-                      <button className='hover:bg-zinc-600 bg-zinc-500 px-5 h-12 rounded-md font-semibold'>
+                    <Dialog.Close className='hover:bg-zinc-600 bg-zinc-500 px-5 h-12 rounded-md font-semibold'>          
                         Cancelar
-                      </button>
                     </Dialog.Close>
 
                     <button 
